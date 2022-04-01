@@ -1,0 +1,16 @@
+﻿[Panel1]
+Coordinates=224,10,55,58
+
+[]
+Coordinates=10,78,44,58
+Visible=True
+
+[lblNome]
+Coordinates=64,78,52,58
+
+[lblReferencia]
+Coordinates=10,10,49,58
+
+[lblCodBarras]
+Coordinates=135,10,79,58
+
