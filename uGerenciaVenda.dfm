@@ -2,8 +2,8 @@ object fGerenciaVenda: TfGerenciaVenda
   Left = 0
   Top = 0
   Caption = 'Gerenciador de Vendas'
-  ClientHeight = 782
-  ClientWidth = 1099
+  ClientHeight = 768
+  ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,8 +16,8 @@ object fGerenciaVenda: TfGerenciaVenda
   object DBGrid1: TDBGrid
     Left = 8
     Top = 128
-    Width = 1083
-    Height = 646
+    Width = 1008
+    Height = 632
     DataSource = DataModule2.dtsVenda
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET
@@ -28,9 +28,9 @@ object fGerenciaVenda: TfGerenciaVenda
   end
   object edtBuscaVenda: TEdit
     Left = 8
-    Top = 60
-    Width = 1083
-    Height = 62
+    Top = 69
+    Width = 1008
+    Height = 53
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -45
@@ -41,8 +41,8 @@ object fGerenciaVenda: TfGerenciaVenda
   end
   object Panel1: TPanel
     Left = 8
-    Top = 0
-    Width = 1083
+    Top = -2
+    Width = 1008
     Height = 65
     Caption = 'GERENCIAMENTO DE VENDAS'
     Font.Charset = DEFAULT_CHARSET

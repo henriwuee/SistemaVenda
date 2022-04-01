@@ -3,7 +3,7 @@ object fMenu: TfMenu
   Top = 0
   Caption = 'Menu'
   ClientHeight = 112
-  ClientWidth = 1073
+  ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

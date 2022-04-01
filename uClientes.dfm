@@ -2,8 +2,8 @@ object fClientes: TfClientes
   Left = 0
   Top = 0
   Caption = 'Clientes'
-  ClientHeight = 663
-  ClientWidth = 1102
+  ClientHeight = 768
+  ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,9 +16,9 @@ object fClientes: TfClientes
   TextHeight = 13
   object DBClientes: TDBGrid
     Left = 8
-    Top = 112
-    Width = 1086
-    Height = 543
+    Top = 104
+    Width = 1008
+    Height = 656
     DataSource = DataModule2.DSClientes
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET

@@ -2,8 +2,8 @@ object fVenda: TfVenda
   Left = 0
   Top = 0
   Caption = 'Vendas'
-  ClientHeight = 695
-  ClientWidth = 1110
+  ClientHeight = 768
+  ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,7 +15,7 @@ object fVenda: TfVenda
   PixelsPerInch = 96
   TextHeight = 28
   object DBText1: TDBText
-    Left = 978
+    Left = 937
     Top = 656
     Width = 79
     Height = 31
@@ -29,7 +29,7 @@ object fVenda: TfVenda
     ParentFont = False
   end
   object Label1: TLabel
-    Left = 880
+    Left = 840
     Top = 656
     Width = 92
     Height = 28
@@ -57,8 +57,8 @@ object fVenda: TfVenda
     OnClick = btnExcluirClick
   end
   object btnFinalizar: TButton
-    Left = 176
-    Top = 448
+    Left = 32
+    Top = 552
     Width = 89
     Height = 81
     Caption = 'Finalizar venda'
@@ -72,8 +72,8 @@ object fVenda: TfVenda
     OnClick = btnFinalizarClick
   end
   object edtBuscaProduto: TEdit
-    Left = 314
-    Top = 24
+    Left = 228
+    Top = 55
     Width = 788
     Height = 68
     Font.Charset = DEFAULT_CHARSET
@@ -86,8 +86,8 @@ object fVenda: TfVenda
     OnKeyPress = edtBuscaProdutoKeyPress
   end
   object DBGrid1: TDBGrid
-    Left = 314
-    Top = 112
+    Left = 228
+    Top = 129
     Width = 788
     Height = 521
     DataSource = DataModule2.dtsItemVenda
